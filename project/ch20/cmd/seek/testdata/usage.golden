@@ -1,0 +1,4 @@
+-- stderr --
+seek: flag provided but not defined: -x
+Usage: seek [OPTIONS] PATTERN [PATH ...]
+Run 'seek --help' for more information.

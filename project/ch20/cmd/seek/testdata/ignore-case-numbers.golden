@@ -1,0 +1,5 @@
+testdata/notes.md:2:- feed the FOX
+testdata/poem.txt:1:The quick brown fox
+testdata/poem.txt:3:The dog sleeps; the fox runs.
+testdata/poem.txt:4:Foxes are quick and clever.
+testdata/src/hello.go:4:	println("hello, fox")

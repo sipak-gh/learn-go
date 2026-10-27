@@ -1,0 +1,27 @@
+Usage: seek [OPTIONS] PATTERN [PATH ...]
+
+Search for PATTERN in each PATH. Directories are searched recursively.
+With no PATH, search the current directory; a PATH of - means standard input.
+Options must come before PATTERN.
+
+Options:
+  -i, --ignore-case         ignore case distinctions
+  -v, --invert-match        select non-matching lines
+  -n, --line-number         print line numbers
+  -c, --count               print only a count of selected lines per file
+  -l, --files-with-matches  print only the names of files with selected lines
+  -m, --max-count N         stop after N selected lines per file
+  -E                        treat PATTERN as a regular expression
+      --hidden              search hidden files and directories
+      --glob GLOB           only search files whose name matches GLOB, e.g. '*.go'
+  -j N                      search N files at a time (default: number of CPUs)
+      --timeout D           give up after duration D, e.g. 500ms or 2s
+      --color WHEN          highlight matches: auto, always, or never
+                            (default auto, or the value of $SEEK_COLOR)
+      --json                print results as JSON Lines, one object per line
+      --stats               print statistics to standard error when done
+      --debug               log what seek is doing to standard error
+      --version             print the version and exit
+  -h, --help                show this help and exit
+
+Exit status is 0 if a line was selected, 1 if none was, and 2 if an error occurred.

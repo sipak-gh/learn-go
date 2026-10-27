@@ -1,0 +1,4 @@
+testdata/poem.txt:The quick brown fox
+testdata/poem.txt:The dog sleeps; the fox runs.
+-- stderr --
+seek: nope.txt: no such file or directory

@@ -1,0 +1,3 @@
+testdata/poem.txt:The quick brown [1;31mfox[0m
+testdata/poem.txt:The dog sleeps; the [1;31mfox[0m runs.
+testdata/poem.txt:[1;31mFox[0mes are quick and clever.

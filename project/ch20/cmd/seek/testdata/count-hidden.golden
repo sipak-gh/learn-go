@@ -1,0 +1,5 @@
+testdata/.cache/fox.txt:1
+testdata/.hidden.txt:1
+testdata/notes.md:0
+testdata/poem.txt:2
+testdata/src/hello.go:1

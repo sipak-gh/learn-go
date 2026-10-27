@@ -1,0 +1,13 @@
+# build output
+/project/*/seek
+/project/*/seek.exe
+/project/*/dist/
+*.test
+*.out
+*.prof
+coverage.*
+# editor/OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
